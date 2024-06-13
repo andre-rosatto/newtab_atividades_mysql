@@ -1,3 +1,5 @@
+-- Criar um banco de dados para o projeto 1
+-- CREATE DATABASE IF NOT EXISTS projeto_1;
 USE projeto_1;
 -- Criar a tabela "transacao" com os seguintes campos: Id, Tipo, Nome, Valor, Data de cadastro
 /*
