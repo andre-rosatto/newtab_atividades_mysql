@@ -70,6 +70,6 @@ INSERT INTO transacao(id_usuario, id_cartao, valor, data_cadastro) VALUES(3, 5, 
 */
 
 -- Criar uma query que retorne todas as transações cadastradas em ordem decrescente da data de cadastro, contendo os dados do usuário e cartão, não apenas seus IDs.
-SELECT DISTINCT * FROM transacao T, usuario U, cartao C
+SELECT * FROM transacao T, usuario U, cartao C
 WHERE T.id_usuario = U.id_usuario AND T.id_cartao = C.id_cartao
 ORDER BY T.data_cadastro DESC;
